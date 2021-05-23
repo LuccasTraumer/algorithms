@@ -1,7 +1,7 @@
 public class LinkedList {
     private Person headPerson;
 
-    void addperson(Person person) {
+    void addPerson(Person person) {
         Person aux = person;
 
         if (this.headPerson == null) {
@@ -17,12 +17,16 @@ public class LinkedList {
 
     void removePerson(Person person) {
         Person aux = this.headPerson;
-
-        while(aux.getNextPerson() != null) {
-            if (aux.equals(person)) {
-                aux = null;
+        if (aux != null) {
+            while (aux.getNextPerson() != null) {
+                if (aux.equals(person)) {
+                    aux = aux.getNextPerson();
+                    aux.setNextPerson(null);
+                }
+                aux = aux.getNextPerson();
             }
         }
+        this.headPerson = aux;
     }
 
     boolean thisPersonInList(Person person) {
@@ -38,7 +42,7 @@ public class LinkedList {
     }
 
     Integer sizeList() {
-        int size = 0;
+        int size = 1;
         Person aux = this.headPerson;
         while(aux.getNextPerson() != null) {
             size++;
