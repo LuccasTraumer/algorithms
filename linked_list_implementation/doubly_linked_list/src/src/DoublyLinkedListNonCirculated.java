@@ -1,8 +1,8 @@
-public class DoublyLinkedListNonCirculted {
+public class DoublyLinkedListNonCirculated {
 
     private Person begin;
 
-    public DoublyLinkedListNonCirculted() {
+    public DoublyLinkedListNonCirculated() {
         begin = null;
     }
 
