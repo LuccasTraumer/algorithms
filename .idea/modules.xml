@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithms.iml" filepath="$PROJECT_DIR$/.idea/algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linked_list_implementation/doubly_linked_list/doubly_linked_list.iml" filepath="$PROJECT_DIR$/linked_list_implementation/doubly_linked_list/doubly_linked_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linked_list_implementation/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linked_list_implementation/linkedlist/linkedlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
+    </modules>
+  </component>
+</project>
