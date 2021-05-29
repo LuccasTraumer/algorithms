@@ -7,3 +7,11 @@ you will catch get very easy. Is the same concept of the joked, where a node tel
 
 That node will contain her data and the reference of the next node, and whene some ask for him about the next,
 her tell to us.
+
+Add in a simple_list:
+
+Remove in a simple_list:
+
+Size of a simple_list:
+
+is Include in a simple_list:

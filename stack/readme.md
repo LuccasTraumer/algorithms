@@ -5,3 +5,11 @@ Stack is a data structure in IT, where use the concept of *First In Last Out* **
 A basic concept to understand how works is think in a stack of books. 
 If you get some books and put one by one, above of first and to remove you 
 only can remove starting from thr top. That is the concept of Stack.
+
+Add in a Stack:
+
+Remove in a Stack:
+
+Size of a Stack:
+
+is Include in a Stack:
