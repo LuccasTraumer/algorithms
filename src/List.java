@@ -18,6 +18,8 @@ public class List {
         if (aux != null && aux.getNextPerson() != null) {
             aux = aux.getNextPerson();
         }
+
+        aux = null;
         this.headPerson = aux;
     }
 
