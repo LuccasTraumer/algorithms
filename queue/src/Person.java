@@ -2,7 +2,7 @@ import java.util.Objects;
 
 public abstract class Person {
     private String name;
-    private Integer age;
+    private Short age;
 
     private Person next;
 
@@ -14,11 +14,11 @@ public abstract class Person {
         this.name = name;
     }
 
-    public Integer getAge() {
+    public Short getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(Short age) {
         this.age = age;
     }
 

@@ -8,6 +8,8 @@ you will catch get very easy. Is the same concept of the joked, where a node tel
 That node will contain her data and the reference of the next node, and whene some ask for him about the next,
 her tell to us.
 
+![Simple Linked List](assets/image_concept.png)
+
 Add in a simple_list:
 
 Remove in a simple_list:

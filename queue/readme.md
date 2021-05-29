@@ -8,6 +8,8 @@ the first people how get in the queue will be the first people to get out and co
 And that is the concept, first in and first out.
 
 
+![Queue concept](assets/Queue-Data-Structures-1024x1024.png)
+
 Add in a Queue:
 
 Remove in a Queue:

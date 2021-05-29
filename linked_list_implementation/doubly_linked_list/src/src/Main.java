@@ -6,10 +6,10 @@ public class Main {
         try {
             DoublyLinkedListNonCirculated doublyLinkedListNonCirculated = new DoublyLinkedListNonCirculated();
 
-            Person lucas = new Person("Lucas", 22);
+            Person lucas = new Person("Lucas", (short) 22);
             doublyLinkedListNonCirculated.addPerson(lucas);
-            doublyLinkedListNonCirculated.addPerson(new Person("David", 16));
-            doublyLinkedListNonCirculated.addPerson(new Person("Matheus", 8));
+            doublyLinkedListNonCirculated.addPerson(new Person("David", (short) 16));
+            doublyLinkedListNonCirculated.addPerson(new Person("Matheus", (short) 8));
 
             System.out.println("----------- BEGIN NON CIRCULATED ------------------------------");
             System.out.println(doublyLinkedListNonCirculated.isInclude(lucas));
@@ -25,9 +25,9 @@ public class Main {
         /** Doubly Linked List Circulated*/
         try {
             DoublyLinkedListCirculated list = new DoublyLinkedListCirculated();
-            Person lucas = new Person("Lucas", 22);
-            Person david = new Person("david", 15);
-            Person matheus = new Person("matheus", 8);
+            Person lucas = new Person("Lucas", (short) 22);
+            Person david = new Person("david", (short) 15);
+            Person matheus = new Person("matheus", (short) 8);
 
             list.addPerson(lucas);
             list.addPerson(david);

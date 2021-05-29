@@ -6,6 +6,8 @@ reference of the next node **and** the previous node. More one concept very impo
 is the **first** and **last** node was linked. Make a **Circule**, where the **last node** refence 
 how next is the *first node* and **first node** reference how **previous node** the *last node*.
 
+![Doubly Linked List](assets/circular-doubly-linked-list.png)
+
 Add in a doubly_list:
 
 Remove in a doubly_list:

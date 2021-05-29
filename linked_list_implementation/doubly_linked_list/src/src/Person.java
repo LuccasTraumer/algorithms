@@ -3,14 +3,14 @@ import java.util.Objects;
 public class Person {
 
     private String name;
-    private Integer age;
+    private Short age;
 
     private Person next;
     private Person previous;
 
     public Person() {}
 
-    public Person(String name, Integer age) throws Exception{
+    public Person(String name, Short age) throws Exception{
         this.setName(name);
         this.setAge(age);
     }
@@ -25,11 +25,11 @@ public class Person {
         this.name = name;
     }
 
-    public Integer getAge() {
+    public Short getAge() {
         return age;
     }
 
-    public void setAge(Integer age) throws Exception{
+    public void setAge(Short age) throws Exception{
         if (age < 0 || age > 150)
             throw new PersonException("Invalid age!");
         this.age = age;

@@ -4,7 +4,7 @@ public class Client extends Person {
     private Double wallet;
     private Double price;
 
-    public Client(String name, Integer age, Double wallet) {
+    public Client(String name, Short age, Double wallet) {
         this.setName(name);
         this.setAge(age);
         this.setWallet(wallet);
