@@ -12,10 +12,10 @@ public class List {
             return;
         }
 
-        while(aux.getNext() != null) {
-            aux = aux.getNext();
+        while(aux.getNextPerson() != null) {
+            aux = aux.getNextPerson();
         }
-        aux.setNext(person);
+        aux.setNextPerson(person);
         this.headPerson = aux;
     }
 
@@ -24,7 +24,7 @@ public class List {
             return;
 
         Person aux = this.headPerson;
-        aux = aux.getNext();
+        aux = aux.getNextPerson();
         this.headPerson = aux;
     }
 
@@ -34,7 +34,7 @@ public class List {
             return isInclude;
 
         Person aux = this.headPerson;
-        while(aux.getNext() != null) {
+        while(aux.getNextPerson() != null) {
             if(aux.equals(person)) {
                 isInclude = true;
                 break;
@@ -53,9 +53,9 @@ public class List {
         size++;
         Person aux = this.headPerson;
 
-        while (aux.getNext() != null) {
+        while (aux.getNextPerson() != null) {
             size++;
-            aux = aux.getNext();
+            aux = aux.getNextPerson();
         }
 
         return size;
@@ -71,7 +71,7 @@ public class List {
 
         while (aux != null) {
             ret += "Client: name: " +  aux.getName() +", age: " + aux.getAge() + "\n";
-            aux = aux.getNext();
+            aux = aux.getNextPerson();
         }
         return ret;
     }

@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        Queue queue = new Queue();
+        Queue queue = new Queue(10);
 
         Client lucas = new Client("lucas", (short) 22, 10000.0);
         Client david = new Client("david", (short) 16, 10000.0);
 
-        queue.addClient(lucas);
-        queue.addClient(david);
+        queue.addClientInArray(lucas);
+        queue.addClientInArray(david);
 
-        System.out.println(queue.sizeQueue());
-        System.out.println(queue);
+        System.out.println(queue.sizeQueueInArray());
+        System.out.println(queue.toStringInArray());
 
-        queue.removeClient();
+        queue.removeClientInArray();
 
-        System.out.println(queue.sizeQueue());
-        System.out.println(queue);
+        System.out.println(queue.sizeQueueInArray());
+        System.out.println(queue.toStringInArray());
     }
 }

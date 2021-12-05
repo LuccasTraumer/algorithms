@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="shared" />
+    <orderEntry type="module" module-name="doubly_linked_list" />
+    <orderEntry type="module" module-name="linkedlist" />
   </component>
 </module>
